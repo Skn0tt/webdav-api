@@ -2,8 +2,6 @@
 
 This is a simple API that can be used to talk to your webdav server via HTTP.
 
-## Getting Started
-
 ## Methods
 
 ### `/read`
@@ -56,3 +54,9 @@ This will replace the file.
 -Lorem ipsum dolor sit amet
 +sometext
 ```
+
+## Deploy your own version!
+
+It feels wrong to send your sacred webdav password to my server, and I get it.
+Just fork this repository and deploy it to your own Vercel account!
+That way you know what's going on.
