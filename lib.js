@@ -11,6 +11,6 @@ export function procedure(doIt) {
 
     const result = await doIt(client, req.body);
 
-    res.status(status).end(result);
+    res.status(200).end(result);
   };
 }
