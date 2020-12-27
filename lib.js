@@ -9,9 +9,8 @@ export function procedure(doIt) {
       password: webdav_password,
     });
 
-    const { status = 200, body = undefined } =
-      (await doIt(client, req.body)) ?? {};
+    const result = await doIt(client, req.body);
 
-    res.status(status).end(body);
+    res.status(status).end(result);
   };
 }
